@@ -1,0 +1,13 @@
+PS4 Boot and memory : 
+
+internal ssd : da0
+usb : da1
+usb extended : es0
+
+SSD is SAMU encrypted :
+
+cold startup :
+
+filesystem msdosfs ,
+da0x0 preinst
+da0xa preinst2
